@@ -3,11 +3,11 @@
 Summary:	ALSA plugin for BSE (Bedevilled Sound Engine)
 Name:		bse-alsa
 Version:	%{version}
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL
 Group:		Sound
 URL:		http://beast.gtk.org/
-Source0:	ftp://beast.gtk.org/pub/beast/v0.6/%{name}-%{version}.tar.bz2
+Source0:	ftp://beast.gtk.org/pub/beast/v0.7/%{name}-%{version}.tar.bz2
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	beast-devel
 BuildRequires:	alsa-lib-devel
@@ -21,7 +21,7 @@ ALSA PCM driver and MIDI driver for BSE.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 
