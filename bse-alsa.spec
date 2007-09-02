@@ -21,7 +21,7 @@ ALSA PCM driver and MIDI driver for BSE.
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
 
 
