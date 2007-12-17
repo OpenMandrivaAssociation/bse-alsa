@@ -8,7 +8,6 @@ License:	GPL
 Group:		Sound
 URL:		http://beast.gtk.org/
 Source0:	ftp://beast.gtk.org/pub/beast/v0.7/%{name}-%{version}.tar.bz2
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	beast-devel
 BuildRequires:	alsa-lib-devel
 
