@@ -3,7 +3,7 @@
 Summary:	ALSA plugin for BSE (Bedevilled Sound Engine)
 Name:		bse-alsa
 Version:	%{version}
-Release:	%mkrel 7
+Release:	8
 License:	GPL
 Group:		Sound
 URL:		https://beast.gtk.org/
